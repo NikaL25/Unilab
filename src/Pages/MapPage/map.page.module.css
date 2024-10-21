@@ -1,0 +1,170 @@
+.container{
+    margin: 0 auto;
+    width: 83%;
+}
+
+.mapSection{
+    height: 850px;
+    width: 100%;
+    margin-top: -750px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.mapSection .form{
+    margin-top: 70px;
+    width: 750px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapSection .map{
+    width: 700px;
+    height: 800px;
+    background: url('./Map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 100%;
+    background-color: white;
+    padding: 0;    
+    border: none;
+}
+
+.form form label{
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.form form input{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #E0E0E0;
+}
+.form form input[placeholder="Name *"]{
+    padding-left: 20px;
+    
+}
+.form form input[placeholder="Email"]{
+    padding-left: 20px;
+}
+.form form input[placeholder="Phone number *"]{
+    padding-left: 20px;
+}
+
+
+.form span{
+    color: #003459;
+}
+.form h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.form p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form form label select{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.form form button{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contactDetails{
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -10px;
+    
+}
+.contactDetails .phone {
+    height: 45px;
+    width: 170px;
+    font-size: 13px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.contactDetails .phone  .phoneIcon{
+    background: url("./PhoneIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30px;
+    max-height: 32px;
+    width: 35px;
+    display: flex;
+    margin-top: 8px;
+}
+
+
+.contactDetails .phone p{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+
+.contactDetails .phone  .faxIcon{
+    background: url("./Fax.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 28px;
+    max-height: 32px;
+    width: 35px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.contactDetails .phone  .emailIcon{
+    background: url("./Email.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30px;
+    max-height: 32px;
+    width: 35px;
+    display: flex;
+    margin-top: 8px;
+}
+.contactDetails .phone  .phoneIcon p span{
+    font-size: 13px;
+}
+
+.contactDetails .phone  .faxIcon p span{
+    font-size: 13px;
+}
+.contactDetails .phone  .emailIcon p span{
+    font-size: 13;
+    font-weight: 400;
+}

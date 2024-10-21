@@ -1,0 +1,92 @@
+
+.bannerSection{
+    min-height: 900px;
+    min-width: 83%;
+    margin-bottom: 20px;
+}
+.headers {
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo{
+    background: url("Frame.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height:35px;
+}
+ul{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-right:  10px;
+    list-style-type: none;
+    align-items: center;
+}
+li{
+    color: #003459;
+    font-size: 16px;
+    font-weight: 700;
+}
+.community{
+    width: 214px;
+    height: 44px;
+    color: white;
+    background-color: #003459;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #003459 ;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+.community a{
+   
+    color: white;
+    text-decoration: none;
+
+}
+button{
+    width: 214px;
+    height: 44px;
+    color: white;
+    background-color: #003459;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #003459 ;
+    margin-left: 150px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.languageSelection{
+    width: 100px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 20px ;
+}
+.languageFlag{
+    height: 20px;
+    min-width: 20px;
+    border-radius: 100px;
+    margin-right: 10px ;
+}
+.selectedLanguage{
+    margin-right: 10px;
+}
+select{
+    background-color: #FCEED5;
+    border: 1px solid #FCEED5;
+    width: 20px;
+}
+
